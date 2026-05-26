@@ -1,0 +1,5 @@
+server:
+  port: 8080
+
+wakeup:
+  config-path: config/alarm-defaults.txt

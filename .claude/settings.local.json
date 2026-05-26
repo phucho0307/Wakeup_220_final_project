@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(java -version)",
+      "Bash(gradle -v)",
+      "Bash(npm -v)",
+      "Bash(winget --version)",
+      "Bash(scoop --version)",
+      "Bash(choco -v)",
+      "Bash(powershell.exe -Command \"Invoke-WebRequest -Uri 'https://services.gradle.org/distributions/gradle-8.10.2-bin.zip' -OutFile 'gradle-bin.zip'\")"
+    ]
+  }
+}

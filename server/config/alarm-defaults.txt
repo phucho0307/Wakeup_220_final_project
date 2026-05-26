@@ -1,0 +1,12 @@
+# WakeUp alarm defaults
+# Edit these values to change math problem difficulty without touching code.
+# Lines starting with # are ignored.
+
+# Smallest integer operand (inclusive)
+min-operand=10
+
+# Largest integer operand (inclusive)
+max-operand=999
+
+# Number of operations per problem (2 means 3 operands, e.g. 347 - 192 + 88)
+operation-count=2

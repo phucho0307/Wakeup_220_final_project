@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="knox.wakeup.server.controller.AlarmControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-05-26T22:25:19" hostname="ADMIN-PC" time="2.719">
+  <properties/>
+  <testcase name="setRequiresPositiveSeconds()" classname="knox.wakeup.server.controller.AlarmControllerTest" time="2.528"/>
+  <testcase name="setThenStatusReturnsArmed()" classname="knox.wakeup.server.controller.AlarmControllerTest" time="0.025"/>
+  <testcase name="unknownUserIsIdle()" classname="knox.wakeup.server.controller.AlarmControllerTest" time="0.014"/>
+  <testcase name="cancelRequiresArmed()" classname="knox.wakeup.server.controller.AlarmControllerTest" time="0.013"/>
+  <testcase name="solveOnIdleIsBadRequest()" classname="knox.wakeup.server.controller.AlarmControllerTest" time="0.119"/>
+  <system-out><![CDATA[17:25:13.251 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [knox.wakeup.server.controller.AlarmControllerTest]: AlarmControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:25:13.750 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration knox.wakeup.server.ServerApplication for test class knox.wakeup.server.controller.AlarmControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.4)
+
+2026-05-26T17:25:15.078-05:00  INFO 26012 --- [    Test worker] k.w.s.controller.AlarmControllerTest     : Starting AlarmControllerTest using Java 17.0.17 with PID 26012 (started by Admin in C:\Users\Admin\Desktop\wakeup_220_final\server)
+2026-05-26T17:25:15.082-05:00  INFO 26012 --- [    Test worker] k.w.s.controller.AlarmControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2026-05-26T17:25:17.854-05:00  INFO 26012 --- [    Test worker] k.wakeup.server.service.ConfigService    : Loaded config: min=10, max=999, ops=2
+2026-05-26T17:25:19.085-05:00  INFO 26012 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-05-26T17:25:19.086-05:00  INFO 26012 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-05-26T17:25:19.091-05:00  INFO 26012 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2026-05-26T17:25:19.158-05:00  INFO 26012 --- [    Test worker] k.w.s.controller.AlarmControllerTest     : Started AlarmControllerTest in 4.888 seconds (process running for 7.955)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
