@@ -1,0 +1,53 @@
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== IDEs =====
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.vscode/
+*.code-workspace
+
+# ===== Claude / agent session data =====
+.claude/
+
+# ===== Node / Vite (client) =====
+node_modules/
+dist/
+.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*
+!.env.example
+
+# ===== Java / Gradle (server) =====
+build/
+.gradle/
+bin/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+
+# Allow the Gradle wrapper jar (it must be checked in)
+!server/gradle/wrapper/gradle-wrapper.jar
+
+# ===== Submission / build artifacts =====
+*.zip
+*.tar
+*.tar.gz
+*.7z
